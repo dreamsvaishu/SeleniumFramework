@@ -45,7 +45,7 @@ public class base {
 		
 		test = report.startTest(method.getName());
 		
-//		System.out.println("Browser name is "+ browser);
+		System.out.println("Browser name is "+ browser);
 //		System.out.println("Wait time is "+ wait);
 		log.info("Before Method is started");
 		if(browser.contains("Chrome")) {
