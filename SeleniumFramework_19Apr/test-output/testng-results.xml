@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40892" started-at="2021-04-23T10:00:15 IST" finished-at="2021-04-23T10:00:56 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40892" started-at="2021-04-23T10:00:15 IST" finished-at="2021-04-23T10:00:56 IST">
+      <class name="com.qa.orangeHRM.testcases.EmpRptTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="beforeSuite" is-config="true" duration-ms="195" started-at="2021-04-23T10:00:14 IST" finished-at="2021-04-23T10:00:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-04-23T10:00:15 IST" finished-at="2021-04-23T10:00:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-04-23T10:00:15 IST" finished-at="2021-04-23T10:00:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="beforeMethod" is-config="true" duration-ms="17178" started-at="2021-04-23T10:00:15 IST" finished-at="2021-04-23T10:00:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.qa.orangeHRM.testcases.EmpRptTest.VerifyEmpRpt()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyEmpRpt()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="VerifyEmpRpt" duration-ms="22612" started-at="2021-04-23T10:00:32 IST" finished-at="2021-04-23T10:00:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmpRpt -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="afterMethod" is-config="true" duration-ms="1033" started-at="2021-04-23T10:00:55 IST" finished-at="2021-04-23T10:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-04-23T10:00:56 IST" finished-at="2021-04-23T10:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-23T10:00:56 IST" finished-at="2021-04-23T10:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.orangeHRM.testcases.EmpRptTest@1b6e1eff]" name="afterSuite" is-config="true" duration-ms="539" started-at="2021-04-23T10:00:56 IST" finished-at="2021-04-23T10:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.orangeHRM.testcases.EmpRptTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
