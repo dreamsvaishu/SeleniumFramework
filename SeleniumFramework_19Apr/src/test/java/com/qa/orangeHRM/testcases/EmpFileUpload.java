@@ -27,10 +27,10 @@ public class EmpFileUpload extends base {
 		}	
 
 		try {	
-			//Navigate to Admin --> Job --> Job title
+			//Navigate to Admin --> Config --> import Data
 			ei= new EmployeeImport(driver,test);
 			ei.NavigatetoconfigPage();
-			ei.uploadEmpFile("C:\\Users\\lenovo\\Downloads\\importData.csv");
+			ei.uploadEmpFile("./TestData/importDataEmp.csv");
 			ei.clickonUploadBtn();
 			ei.NavigateToEmpListPage();
 			ei.verifyEmployee("1003");
