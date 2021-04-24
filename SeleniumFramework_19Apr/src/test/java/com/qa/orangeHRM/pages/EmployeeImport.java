@@ -58,12 +58,14 @@ public class EmployeeImport extends Report{
 	
 	//Upload the file
 	public void uploadEmpFile(String filePath) {
+		System.out.println("FilePath : "+filePath);
 		btnFileUpload.sendKeys(filePath);
 	}
 	
 	//Save button
 	public void clickonUploadBtn() {
 		btnSave.click();
+		System.out.println("Clicked on Upload button");
 	}
 	
 	//Navigate to EmpList page

@@ -27,13 +27,14 @@ public class EmpFileUpload extends base {
 		}	
 
 		try {	
-			//Navigate to Admin --> Config --> import Data
+			//Navigate to PIM --> Config --> import Data
 			ei= new EmployeeImport(driver,test);
 			ei.NavigatetoconfigPage();
-			ei.uploadEmpFile("./TestData/importDataEmp.csv");
+			ei.uploadEmpFile("C:\\Users\\Vijayshri\\git\\SeleniumFramework\\SeleniumFramework_19Apr\\TestData\\importDataEmp.csv");
 			ei.clickonUploadBtn();
+			Thread.sleep(8000);
 			ei.NavigateToEmpListPage();
-			ei.verifyEmployee("1003");
+			ei.verifyEmployee("1005");
 			
 		}catch(Exception e1) {
 			ei.reportStatus("FAIL", "User is unable to upload File");

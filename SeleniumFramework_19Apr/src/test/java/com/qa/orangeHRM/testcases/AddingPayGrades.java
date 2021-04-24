@@ -33,7 +33,7 @@ public class AddingPayGrades extends base{
 			pg.NavigatetoPayGrades();
 			pg.clickOnAddButton();
 			pg.VerifyAddPayGradePage();
-			pg.Enter_PayGrade_Name("Grade12");
+			pg.Enter_PayGrade_Name("Grade13");
 			pg.ClickOnSaveBtn();
 			pg.EditPayGradePage();
 			pg.add_Currency();
