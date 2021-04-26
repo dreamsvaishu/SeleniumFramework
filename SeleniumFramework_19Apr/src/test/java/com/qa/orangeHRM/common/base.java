@@ -29,6 +29,8 @@ import com.qa.orangeHRM.util.util;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class base {
@@ -50,7 +52,9 @@ public class base {
 		log.info("Before Method is started");
 		if(browser.contains("Chrome")) {
 			log.info("Executing on browser "+ browser);
-			System.setProperty("webdriver.chrome.driver", "F:\\Eclipse-workspace\\Driver\\chromedriver_win32\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "F:\\Eclipse-workspace\\Driver\\chromedriver_win32\\chromedriver.exe");
+			
+			WebDriverManager.chromedriver().setup();
 			
 			//Need to create the object for chrome
 			driver= new ChromeDriver();
@@ -61,7 +65,9 @@ public class base {
 			System.out.println("Title is "+ driver.getTitle());
 		}else if(browser.contains("Firefox")) {
 			log.info("Executing on browser "+ browser);
-			System.setProperty("webdriver.gecko.driver", "F:\\Eclipse-workspace\\Driver\\geckodriver-v0.29.0-win64\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", "F:\\Eclipse-workspace\\Driver\\geckodriver-v0.29.0-win64\\geckodriver.exe");
+			
+			WebDriverManager.firefoxdriver().setup();
 			
 			//Need to create the object for chrome
 			driver= new FirefoxDriver();
