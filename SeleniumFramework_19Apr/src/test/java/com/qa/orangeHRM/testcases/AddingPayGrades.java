@@ -1,5 +1,7 @@
 package com.qa.orangeHRM.testcases;
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
 import com.qa.orangeHRM.common.base;
@@ -13,7 +15,7 @@ public class AddingPayGrades extends base{
 	PayGrades pg;
 	
 	@Test
-	public void addingpayGrades() {
+	public void addingpayGrades() throws IOException {
 	
 	
 	try {

@@ -3,19 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.orangeHRM.testcases.EmpFileUpload">
+      <class name="com.qa.orangeHRM.testcases.AddEmpTest">
         <methods>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
+          <include name="AddEmp_DataProvider"/>
           <include name="afterClass"/>
           <include name="beforeSuite"/>
-          <include name="EmpFileUpload"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- com.qa.orangeHRM.testcases.EmpFileUpload -->
+      </class> <!-- com.qa.orangeHRM.testcases.AddEmpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

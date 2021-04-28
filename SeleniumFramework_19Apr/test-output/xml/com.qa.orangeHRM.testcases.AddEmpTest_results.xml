@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="265.313">
+    <properties></properties>
+
+
+
+            <testcase
+                name="AddEmp_DataProvider"
+                time="30.435"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="30.261"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="27.479"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="26.797"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="26.507"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="25.774"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="36.644"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="31.059"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+            <testcase
+                name="AddEmp_DataProvider"
+                time="30.357"
+                classname="com.qa.orangeHRM.testcases.AddEmpTest">
+            </testcase>
+</testsuite>

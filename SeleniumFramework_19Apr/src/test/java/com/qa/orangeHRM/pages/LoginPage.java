@@ -37,7 +37,7 @@ public class LoginPage extends Report {
 	@FindBy(xpath="//input[@id='MP_link']")
 	WebElement Marketplace;
 	
-	@SuppressWarnings("deprecation")
+	//@SuppressWarnings("deprecation")
 	public LoginPage(WebDriver driver,ExtentTest test) throws IOException {
 		setDriver(driver);
 		setTest(test);
@@ -45,6 +45,7 @@ public class LoginPage extends Report {
 		this.driver = driver;
 		this.test = test;
 		PageFactory.initElements(driver, this);
+		System.out.println("Element initialization done");
 	}
 	
 	//Enter UserName

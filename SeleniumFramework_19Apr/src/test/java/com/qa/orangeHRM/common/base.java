@@ -25,6 +25,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import com.qa.orangeHRM.config.gblConstants;
 import com.qa.orangeHRM.util.util;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -43,7 +44,7 @@ public class base {
 	
 	@BeforeMethod
 	@Parameters(value = {"BrowserName"})
-	public void beforeMethod(String browser, Method method) throws IOException {
+	public void beforeMethod(String browser, Method method) throws IOException, Exception {
 		
 		test = report.startTest(method.getName());
 		
@@ -59,10 +60,11 @@ public class base {
 			//Need to create the object for chrome
 			driver= new ChromeDriver();
 			driver.get(util.getProperty("URL"));
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(gblConstants.WaitTime, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			log.info("Browser is launched successfully");
 			System.out.println("Title is "+ driver.getTitle());
+			//Thread.sleep(5000);
 		}else if(browser.contains("Firefox")) {
 			log.info("Executing on browser "+ browser);
 			//System.setProperty("webdriver.gecko.driver", "F:\\Eclipse-workspace\\Driver\\geckodriver-v0.29.0-win64\\geckodriver.exe");

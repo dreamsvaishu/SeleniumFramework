@@ -1,5 +1,6 @@
 package com.qa.orangeHRM.pages;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -63,7 +64,7 @@ public class EmpReports extends Report{
 		a.moveToElement(ReportMenu).click().build().perform();
   }
 	//Select Reportname
-	public void EnterReportName(String RptNameActual)
+	public void EnterReportName(String RptNameActual) throws IOException
 	{
 		ReportName.sendKeys(RptNameActual);
 		RptNameExpected=RptNameActual;

@@ -146,7 +146,7 @@ public class PayGrades extends Report{
 	}
 
 	//Verify add the currency
-	public void addCurrency(String currency) {
+	public void addCurrency(String currency) throws IOException {
 		
 		currencyType.sendKeys(currency);
 		
@@ -171,7 +171,7 @@ public class PayGrades extends Report{
 	}
 	
 	//Click on Save Button
-	public void click_SaveCurrency() {
+	public void click_SaveCurrency() throws IOException {
 		saveCurrency.click();
 		reportStatus("PASS","Clicked on Save Currency successfully");
 	}

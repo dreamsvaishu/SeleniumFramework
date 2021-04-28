@@ -1,5 +1,7 @@
 package com.qa.orangeHRM.testcases;
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 
 import com.qa.orangeHRM.common.base;
@@ -12,7 +14,7 @@ public class EmpFileUpload extends base {
 	EmployeeImport ei;
 	
 	@Test
-	public void EmpFileUpload() {
+	public void EmpFileUpload() throws IOException {
 	
 	
 	try {

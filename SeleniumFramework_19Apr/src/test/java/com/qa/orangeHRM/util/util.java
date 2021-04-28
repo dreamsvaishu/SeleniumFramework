@@ -26,6 +26,7 @@ public class util {
 		
 	}
 	
+		
 	public static String capture(WebDriver driver) throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File Dest = new File("src/../Images/" + System.currentTimeMillis()

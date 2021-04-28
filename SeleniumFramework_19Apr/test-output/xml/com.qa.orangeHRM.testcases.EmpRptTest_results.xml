@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="22.612">
+           time="21.359">
     <properties></properties>
 
 
 
             <testcase
                 name="VerifyEmpRpt"
-                time="22.612"
+                time="21.359"
                 classname="com.qa.orangeHRM.testcases.EmpRptTest">
             </testcase>
 </testsuite>
