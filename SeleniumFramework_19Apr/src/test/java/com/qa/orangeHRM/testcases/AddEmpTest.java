@@ -3,6 +3,7 @@ package com.qa.orangeHRM.testcases;
 import org.testng.annotations.Test;
 
 import com.qa.orangeHRM.common.base;
+import com.qa.orangeHRM.dataprovider.DataProviders;
 import com.qa.orangeHRM.pages.AddEmp;
 import com.qa.orangeHRM.pages.LoginPage;
 import com.qa.orangeHRM.pages.PayGrades;
@@ -29,7 +30,10 @@ public class AddEmpTest extends base {
 	LoginPage loginpage;
 	AddEmp emp;
 	
-  @Test(dataProvider ="EmpDetails", description="It performs add new employee operation")
+	
+	
+	
+  @Test(dataProviderClass =DataProviders.class, dataProvider ="EmpDetails", description="It performs add new employee operation")
   public void AddEmp_DataProvider(String fname, String midName, String lastName) throws Exception {
 	 
 	try {  
@@ -79,7 +83,7 @@ public class AddEmpTest extends base {
 	}
   }
 
-  @DataProvider
+ /* @DataProvider
 	public Object[][] EmpDetails() throws IOException {
 	
 		//Read the data from Excel
@@ -101,6 +105,6 @@ public class AddEmpTest extends base {
 			}
 		}
 		return empdata;
-	}
+	} */
   }
 
