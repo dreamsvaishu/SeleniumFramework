@@ -6314,3 +6314,368 @@
 [DEBUG] 2021-04-28 18:08:18.058 [AsyncHttpClient-1-7] PoolThreadCache - Freed 34 thread-local buffer(s) from thread: AsyncHttpClient-1-7
 [DEBUG] 2021-04-28 18:08:18.059 [AsyncHttpClient-1-8] PoolThreadCache - Freed 34 thread-local buffer(s) from thread: AsyncHttpClient-1-8
 [DEBUG] 2021-04-28 18:08:18.064 [AsyncHttpClient-1-9] PoolThreadCache - Freed 34 thread-local buffer(s) from thread: AsyncHttpClient-1-9
+[INFO ] 2021-05-04 08:21:55.415 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:21:55.447 [main] base - Executing on browser Chrome
+[DEBUG] 2021-05-04 08:21:59.909 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-05-04 08:21:59.918 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-05-04 08:21:59.918 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-05-04 08:21:59.934 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6050462a
+[DEBUG] 2021-05-04 08:21:59.980 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-05-04 08:21:59.980 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-05-04 08:21:59.980 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-05-04 08:21:59.996 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-05-04 08:22:00.012 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\VIJAYS~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-05-04 08:22:00.012 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-05-04 08:22:00.012 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 902299648 bytes
+[DEBUG] 2021-05-04 08:22:00.012 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-05-04 08:22:00.012 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-05-04 08:22:00.012 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-05-04 08:22:00.043 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-05-04 08:22:00.121 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-05-04 08:22:00.121 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-05-04 08:22:00.164 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-05-04 08:22:00.164 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-05-04 08:22:00.242 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-05-04 08:22:00.305 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-05-04 08:22:00.305 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6136998b
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@35835fa
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@56f71edb
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7207cb51
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a27cb34
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6892cc6f
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fd1660
+[TRACE] 2021-05-04 08:22:00.336 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4a6c18ad
+[DEBUG] 2021-05-04 08:22:00.402 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-05-04 08:22:00.402 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-05-04 08:22:00.402 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-05-04 08:22:00.402 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-05-04 08:22:00.418 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-05-04 08:22:00.449 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-05-04 08:22:00.449 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-05-04 08:22:00.449 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-05-04 08:22:02.017 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 8116 (auto-detected)
+[DEBUG] 2021-05-04 08:22:02.032 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-05-04 08:22:02.032 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-05-04 08:22:02.256 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-05-04 08:22:02.256 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-05-04 08:22:02.515 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 90:32:4b:ff:fe:67:92:9b (auto-detected)
+[DEBUG] 2021-05-04 08:22:02.639 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-05-04 08:22:02.639 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-05-04 08:22:02.639 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@f7d6067
+[DEBUG] 2021-05-04 08:22:02.686 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-05-04 08:22:02.686 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-05-04 08:22:02.686 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-05-04 08:22:02.686 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-05-04 08:22:02.686 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-05-04 08:22:13.796 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdecd73e80ce26171
+[INFO ] 2021-05-04 08:22:20.571 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:22:27.713 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:22:37.037 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:22:47.450 [main] JobTitles - Employee(ID: 0268) is verified successfully
+[TRACE] 2021-05-04 08:22:47.478 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:22:48.718 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:22:48.722 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:22:58.066 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:23:04.486 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:23:12.229 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:23:22.108 [main] JobTitles - Employee(ID: 0269) is verified successfully
+[TRACE] 2021-05-04 08:23:22.111 [AsyncHttpClient-1-7] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:23:22.959 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:23:22.959 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:23:31.979 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:23:36.945 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:23:45.289 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:23:54.870 [main] JobTitles - Employee(ID: 0271) is verified successfully
+[TRACE] 2021-05-04 08:23:54.874 [AsyncHttpClient-1-2] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:23:55.706 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:23:55.706 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:24:04.024 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:24:08.971 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:24:17.175 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:24:27.899 [main] JobTitles - Employee(ID: 0272) is verified successfully
+[TRACE] 2021-05-04 08:24:27.903 [AsyncHttpClient-1-5] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:24:28.734 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:24:28.734 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:24:37.837 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:24:43.371 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:24:51.626 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:25:01.506 [main] JobTitles - Employee(ID: 0273) is verified successfully
+[TRACE] 2021-05-04 08:25:01.509 [AsyncHttpClient-1-8] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:25:02.366 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:25:02.366 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:25:09.388 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:25:14.473 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:25:22.650 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:25:32.589 [main] JobTitles - Employee(ID: 0274) is verified successfully
+[TRACE] 2021-05-04 08:25:32.593 [AsyncHttpClient-1-3] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:25:33.450 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:25:33.450 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:25:40.121 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:25:45.657 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:25:54.046 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:26:03.930 [main] JobTitles - Employee(ID: 0275) is verified successfully
+[TRACE] 2021-05-04 08:26:03.940 [AsyncHttpClient-1-6] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:26:04.750 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:26:04.750 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:26:12.283 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:26:18.085 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:26:27.325 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:26:37.813 [main] JobTitles - Employee(ID: 0277) is verified successfully
+[TRACE] 2021-05-04 08:26:37.815 [AsyncHttpClient-1-9] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 08:26:38.687 [main] base - Before Method is started
+[INFO ] 2021-05-04 08:26:38.687 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 08:26:47.774 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 08:26:53.248 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 08:27:02.549 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 08:27:12.742 [main] JobTitles - Employee(ID: 0278) is verified successfully
+[TRACE] 2021-05-04 08:27:12.746 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:31:28.522 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:31:28.562 [main] base - Executing on browser Chrome
+[DEBUG] 2021-05-04 09:31:34.286 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-05-04 09:31:34.309 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-05-04 09:31:34.310 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-05-04 09:31:34.378 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7923f5b3
+[DEBUG] 2021-05-04 09:31:34.529 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-05-04 09:31:34.543 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-05-04 09:31:34.544 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-05-04 09:31:34.548 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-05-04 09:31:34.550 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-05-04 09:31:34.552 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-05-04 09:31:34.553 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-05-04 09:31:34.555 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-05-04 09:31:34.555 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-05-04 09:31:34.556 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-05-04 09:31:34.556 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-05-04 09:31:34.576 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\VIJAYS~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-05-04 09:31:34.577 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-05-04 09:31:34.579 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 902299648 bytes
+[DEBUG] 2021-05-04 09:31:34.580 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-05-04 09:31:34.583 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-05-04 09:31:34.583 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-05-04 09:31:34.619 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-05-04 09:31:34.905 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-05-04 09:31:34.909 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-05-04 09:31:35.000 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-05-04 09:31:35.000 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-05-04 09:31:35.300 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-05-04 09:31:35.410 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-05-04 09:31:35.411 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-05-04 09:31:35.514 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@aac3f4e
+[TRACE] 2021-05-04 09:31:35.516 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2715644a
+[TRACE] 2021-05-04 09:31:35.520 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4c2869a9
+[TRACE] 2021-05-04 09:31:35.525 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@518cf84a
+[TRACE] 2021-05-04 09:31:35.533 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@62e7dffa
+[TRACE] 2021-05-04 09:31:35.546 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6edcd0d8
+[TRACE] 2021-05-04 09:31:35.551 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6136998b
+[TRACE] 2021-05-04 09:31:35.560 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@57ce634f
+[DEBUG] 2021-05-04 09:31:35.719 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-05-04 09:31:35.719 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-05-04 09:31:35.735 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-05-04 09:31:35.735 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-05-04 09:31:35.741 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-05-04 09:31:35.742 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-05-04 09:31:35.742 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-05-04 09:31:35.742 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-05-04 09:31:35.743 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-05-04 09:31:35.743 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-05-04 09:31:35.744 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-05-04 09:31:35.744 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-05-04 09:31:35.809 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-05-04 09:31:35.809 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-05-04 09:31:35.809 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-05-04 09:31:42.152 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 2420 (auto-detected)
+[DEBUG] 2021-05-04 09:31:42.183 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-05-04 09:31:42.184 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-05-04 09:31:42.536 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-05-04 09:31:42.544 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-05-04 09:31:42.910 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 90:32:4b:ff:fe:67:92:9b (auto-detected)
+[DEBUG] 2021-05-04 09:31:43.156 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-05-04 09:31:43.159 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-05-04 09:31:43.160 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a565888
+[DEBUG] 2021-05-04 09:31:43.234 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-05-04 09:31:43.235 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-05-04 09:31:43.235 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-05-04 09:31:43.235 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-05-04 09:31:43.236 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-05-04 09:31:51.723 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x3c5cca2c65a082cd
+[INFO ] 2021-05-04 09:31:56.855 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:32:05.060 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:32:14.563 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:32:26.008 [main] JobTitles - Employee(ID: 0284) is verified successfully
+[TRACE] 2021-05-04 09:32:26.116 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:32:27.503 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:32:27.504 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:32:39.921 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:32:46.736 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:32:57.233 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:33:08.154 [main] JobTitles - Employee(ID: 0285) is verified successfully
+[TRACE] 2021-05-04 09:33:08.164 [AsyncHttpClient-1-7] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:33:09.453 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:33:09.453 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:33:21.855 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:33:28.439 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:33:38.984 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:33:49.650 [main] JobTitles - Employee(ID: 0287) is verified successfully
+[TRACE] 2021-05-04 09:33:49.654 [AsyncHttpClient-1-2] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:33:50.890 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:33:50.890 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:34:04.414 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:34:10.874 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:34:21.954 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:34:33.985 [main] JobTitles - Employee(ID: 0289) is verified successfully
+[TRACE] 2021-05-04 09:34:33.990 [AsyncHttpClient-1-5] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:34:38.022 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:34:38.022 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:35:06.506 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:35:14.520 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:35:25.375 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:35:36.275 [main] JobTitles - Employee(ID: 0290) is verified successfully
+[TRACE] 2021-05-04 09:35:36.283 [AsyncHttpClient-1-8] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:35:38.010 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:35:38.013 [main] base - Executing on browser Chrome
+[DEBUG] 2021-05-04 09:35:53.772 [AsyncHttpClient-1-2] PoolThreadCache - Freed 36 thread-local buffer(s) from thread: AsyncHttpClient-1-2
+[INFO ] 2021-05-04 09:43:29.214 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:43:29.214 [main] base - Executing on browser Chrome
+[DEBUG] 2021-05-04 09:43:30.261 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2021-05-04 09:43:30.266 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2021-05-04 09:43:30.266 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2021-05-04 09:43:30.266 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6b7d1df8
+[DEBUG] 2021-05-04 09:43:30.313 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2021-05-04 09:43:30.313 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2021-05-04 09:43:30.313 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2021-05-04 09:43:30.328 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2021-05-04 09:43:30.344 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\VIJAYS~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2021-05-04 09:43:30.344 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2021-05-04 09:43:30.344 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 902299648 bytes
+[DEBUG] 2021-05-04 09:43:30.344 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2021-05-04 09:43:30.344 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2021-05-04 09:43:30.344 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2021-05-04 09:43:30.359 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2021-05-04 09:43:30.391 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2021-05-04 09:43:30.406 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2021-05-04 09:43:30.438 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2021-05-04 09:43:30.438 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2021-05-04 09:43:30.492 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2021-05-04 09:43:30.539 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2021-05-04 09:43:30.539 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2021-05-04 09:43:30.570 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4bee18dc
+[TRACE] 2021-05-04 09:43:30.570 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@417d6615
+[TRACE] 2021-05-04 09:43:30.570 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7a6ebe1e
+[TRACE] 2021-05-04 09:43:30.570 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@21325036
+[TRACE] 2021-05-04 09:43:30.570 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@489543a6
+[TRACE] 2021-05-04 09:43:30.586 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6272c96f
+[TRACE] 2021-05-04 09:43:30.586 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6de30571
+[TRACE] 2021-05-04 09:43:30.586 [main] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5ee34b1b
+[DEBUG] 2021-05-04 09:43:30.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2021-05-04 09:43:30.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2021-05-04 09:43:30.648 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2021-05-04 09:43:30.679 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2021-05-04 09:43:30.679 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2021-05-04 09:43:30.679 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2021-05-04 09:43:31.980 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 4924 (auto-detected)
+[DEBUG] 2021-05-04 09:43:31.986 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2021-05-04 09:43:31.986 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2021-05-04 09:43:32.210 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2021-05-04 09:43:32.210 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2021-05-04 09:43:32.433 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 90:32:4b:ff:fe:67:92:9b (auto-detected)
+[DEBUG] 2021-05-04 09:43:32.532 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2021-05-04 09:43:32.532 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2021-05-04 09:43:32.532 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5213581c
+[DEBUG] 2021-05-04 09:43:32.579 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2021-05-04 09:43:32.579 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2021-05-04 09:43:32.579 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2021-05-04 09:43:32.579 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2021-05-04 09:43:32.579 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2021-05-04 09:43:34.610 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdea4e32097b10fcd
+[INFO ] 2021-05-04 09:43:40.776 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:43:47.253 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:43:55.623 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:44:05.801 [main] JobTitles - Employee(ID: 0292) is verified successfully
+[TRACE] 2021-05-04 09:44:05.817 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:44:06.641 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:44:06.641 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:44:14.295 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:44:19.511 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:44:27.698 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:44:36.828 [main] JobTitles - Employee(ID: 0293) is verified successfully
+[TRACE] 2021-05-04 09:44:36.836 [AsyncHttpClient-1-7] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:44:37.795 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:44:37.795 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:44:45.078 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:44:50.026 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:44:58.227 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:45:07.391 [main] JobTitles - Employee(ID: 0294) is verified successfully
+[TRACE] 2021-05-04 09:45:07.395 [AsyncHttpClient-1-2] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:45:08.210 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:45:08.210 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:45:15.577 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:45:21.027 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:45:29.099 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:45:38.961 [main] JobTitles - Employee(ID: 0295) is verified successfully
+[TRACE] 2021-05-04 09:45:38.964 [AsyncHttpClient-1-5] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:45:39.797 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:45:39.797 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:45:48.647 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:45:53.647 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:46:02.064 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:46:11.943 [main] JobTitles - Employee(ID: 0296) is verified successfully
+[TRACE] 2021-05-04 09:46:11.946 [AsyncHttpClient-1-8] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:46:12.763 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:46:12.763 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:46:20.359 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:46:25.879 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:46:34.059 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:46:43.865 [main] JobTitles - Employee(ID: 0297) is verified successfully
+[TRACE] 2021-05-04 09:46:43.868 [AsyncHttpClient-1-3] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:46:44.710 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:46:44.710 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:46:52.411 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:46:57.997 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:47:06.354 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:47:16.321 [main] JobTitles - Employee(ID: 0298) is verified successfully
+[TRACE] 2021-05-04 09:47:16.324 [AsyncHttpClient-1-6] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:47:17.139 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:47:17.139 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:47:24.494 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:47:29.881 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:47:38.041 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:47:47.999 [main] JobTitles - Employee(ID: 0299) is verified successfully
+[TRACE] 2021-05-04 09:47:48.002 [AsyncHttpClient-1-9] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+[INFO ] 2021-05-04 09:47:48.894 [main] base - Before Method is started
+[INFO ] 2021-05-04 09:47:48.894 [main] base - Executing on browser Chrome
+[INFO ] 2021-05-04 09:47:56.563 [main] base - Browser is launched successfully
+[INFO ] 2021-05-04 09:48:01.745 [main] class - User is logged in successfully
+[INFO ] 2021-05-04 09:48:10.711 [main] JobTitles - Employee added successfully
+[INFO ] 2021-05-04 09:48:20.682 [main] JobTitles - Employee(ID: 0300) is verified successfully
+[TRACE] 2021-05-04 09:48:20.689 [AsyncHttpClient-1-4] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

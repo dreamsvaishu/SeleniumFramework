@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="390970" started-at="2021-04-28T18:01:45 IST" finished-at="2021-04-28T18:08:16 IST">
+  <suite name="Suite" duration-ms="293263" started-at="2021-05-04T09:43:28 IST" finished-at="2021-05-04T09:48:21 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="390970" started-at="2021-04-28T18:01:45 IST" finished-at="2021-04-28T18:08:16 IST">
+    <test name="Test" duration-ms="293263" started-at="2021-05-04T09:43:28 IST" finished-at="2021-05-04T09:48:21 IST">
       <class name="com.qa.orangeHRM.testcases.AddEmpTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeSuite" is-config="true" duration-ms="178" started-at="2021-04-28T18:01:45 IST" finished-at="2021-04-28T18:01:45 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeSuite" is-config="true" duration-ms="186" started-at="2021-05-04T09:43:28 IST" finished-at="2021-05-04T09:43:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-04-28T18:01:45 IST" finished-at="2021-04-28T18:01:45 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-05-04T09:43:28 IST" finished-at="2021-05-04T09:43:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-04-28T18:01:45 IST" finished-at="2021-04-28T18:01:45 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-05-04T09:43:28 IST" finished-at="2021-05-04T09:43:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="20356" started-at="2021-04-28T18:01:46 IST" finished-at="2021-04-28T18:02:06 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="11584" started-at="2021-05-04T09:43:29 IST" finished-at="2021-05-04T09:43:40 IST">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="26797" started-at="2021-04-28T18:02:06 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:02:33 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="25018" started-at="2021-05-04T09:43:40 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:44:05 IST">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="918" started-at="2021-04-28T18:02:33 IST" finished-at="2021-04-28T18:02:34 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="835" started-at="2021-05-04T09:44:05 IST" finished-at="2021-05-04T09:44:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="8954" started-at="2021-04-28T18:02:34 IST" finished-at="2021-04-28T18:02:43 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7661" started-at="2021-05-04T09:44:06 IST" finished-at="2021-05-04T09:44:14 IST">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="25774" started-at="2021-04-28T18:02:43 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:03:09 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="22527" started-at="2021-05-04T09:44:14 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:44:36 IST">
           <params>
             <param index="0">
               <value>
@@ -97,11 +97,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="1022" started-at="2021-04-28T18:03:09 IST" finished-at="2021-04-28T18:03:10 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="964" started-at="2021-05-04T09:44:36 IST" finished-at="2021-05-04T09:44:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="9586" started-at="2021-04-28T18:03:10 IST" finished-at="2021-04-28T18:03:19 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7296" started-at="2021-05-04T09:44:37 IST" finished-at="2021-05-04T09:44:45 IST">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="26507" started-at="2021-04-28T18:03:19 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:03:46 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="22300" started-at="2021-05-04T09:44:45 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:45:07 IST">
           <params>
             <param index="0">
               <value>
@@ -138,11 +138,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="804" started-at="2021-04-28T18:03:46 IST" finished-at="2021-04-28T18:03:47 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="816" started-at="2021-05-04T09:45:07 IST" finished-at="2021-05-04T09:45:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="9785" started-at="2021-04-28T18:03:47 IST" finished-at="2021-04-28T18:03:56 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7379" started-at="2021-05-04T09:45:08 IST" finished-at="2021-05-04T09:45:15 IST">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="36644" started-at="2021-04-28T18:03:56 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:04:33 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="23372" started-at="2021-05-04T09:45:15 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:45:38 IST">
           <params>
             <param index="0">
               <value>
@@ -179,11 +179,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="2492" started-at="2021-04-28T18:04:33 IST" finished-at="2021-04-28T18:04:36 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="834" started-at="2021-05-04T09:45:38 IST" finished-at="2021-05-04T09:45:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="11666" started-at="2021-04-28T18:04:36 IST" finished-at="2021-04-28T18:04:47 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="8858" started-at="2021-05-04T09:45:39 IST" finished-at="2021-05-04T09:45:48 IST">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="30261" started-at="2021-04-28T18:04:47 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:05:18 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="23289" started-at="2021-05-04T09:45:48 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:46:11 IST">
           <params>
             <param index="0">
               <value>
@@ -220,11 +220,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="1040" started-at="2021-04-28T18:05:18 IST" finished-at="2021-04-28T18:05:19 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="817" started-at="2021-05-04T09:46:11 IST" finished-at="2021-05-04T09:46:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="17642" started-at="2021-04-28T18:05:19 IST" finished-at="2021-04-28T18:05:36 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7602" started-at="2021-05-04T09:46:12 IST" finished-at="2021-05-04T09:46:20 IST">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="27479" started-at="2021-04-28T18:05:36 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:06:04 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="23500" started-at="2021-05-04T09:46:20 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:46:43 IST">
           <params>
             <param index="0">
               <value>
@@ -261,11 +261,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="970" started-at="2021-04-28T18:06:04 IST" finished-at="2021-04-28T18:06:05 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="843" started-at="2021-05-04T09:46:43 IST" finished-at="2021-05-04T09:46:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="10555" started-at="2021-04-28T18:06:05 IST" finished-at="2021-04-28T18:06:15 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7712" started-at="2021-05-04T09:46:44 IST" finished-at="2021-05-04T09:46:52 IST">
           <params>
             <param index="0">
               <value>
@@ -281,7 +281,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="30435" started-at="2021-04-28T18:06:15 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:06:46 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="23899" started-at="2021-05-04T09:46:52 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:47:16 IST">
           <params>
             <param index="0">
               <value>
@@ -302,11 +302,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="971" started-at="2021-04-28T18:06:46 IST" finished-at="2021-04-28T18:06:47 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="816" started-at="2021-05-04T09:47:16 IST" finished-at="2021-05-04T09:47:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="13871" started-at="2021-04-28T18:06:47 IST" finished-at="2021-04-28T18:07:01 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7363" started-at="2021-05-04T09:47:17 IST" finished-at="2021-05-04T09:47:24 IST">
           <params>
             <param index="0">
               <value>
@@ -322,7 +322,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="31059" started-at="2021-04-28T18:07:01 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:07:32 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="23497" started-at="2021-05-04T09:47:24 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:47:47 IST">
           <params>
             <param index="0">
               <value>
@@ -343,11 +343,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="944" started-at="2021-04-28T18:07:32 IST" finished-at="2021-04-28T18:07:33 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="893" started-at="2021-05-04T09:47:48 IST" finished-at="2021-05-04T09:47:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="beforeMethod" is-config="true" duration-ms="12049" started-at="2021-04-28T18:07:33 IST" finished-at="2021-04-28T18:07:45 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="beforeMethod" is-config="true" duration-ms="7678" started-at="2021-05-04T09:47:48 IST" finished-at="2021-05-04T09:47:56 IST">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="AddEmp_DataProvider" duration-ms="30357" started-at="2021-04-28T18:07:45 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-04-28T18:08:15 IST">
+        <test-method status="PASS" signature="AddEmp_DataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="AddEmp_DataProvider" duration-ms="24110" started-at="2021-05-04T09:47:56 IST" description="It performs add new employee operation" data-provider="EmpDetails" finished-at="2021-05-04T09:48:20 IST">
           <params>
             <param index="0">
               <value>
@@ -384,19 +384,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmp_DataProvider -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterMethod" is-config="true" duration-ms="960" started-at="2021-04-28T18:08:15 IST" finished-at="2021-04-28T18:08:16 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterMethod" is-config="true" duration-ms="783" started-at="2021-05-04T09:48:20 IST" finished-at="2021-05-04T09:48:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-04-28T18:08:16 IST" finished-at="2021-04-28T18:08:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-04-28T18:08:16 IST" finished-at="2021-04-28T18:08:16 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-05-04T09:48:21 IST" finished-at="2021-05-04T09:48:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@5d7148e2]" name="afterSuite" is-config="true" duration-ms="658" started-at="2021-04-28T18:08:16 IST" finished-at="2021-04-28T18:08:17 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-05-04T09:48:21 IST" finished-at="2021-05-04T09:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.orangeHRM.testcases.AddEmpTest@618425b5]" name="afterSuite" is-config="true" duration-ms="433" started-at="2021-05-04T09:48:21 IST" finished-at="2021-05-04T09:48:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

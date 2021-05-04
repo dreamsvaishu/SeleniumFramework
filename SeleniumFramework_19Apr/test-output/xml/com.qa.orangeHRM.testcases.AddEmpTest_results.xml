@@ -4,54 +4,54 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="265.313">
+           time="211.512">
     <properties></properties>
 
 
 
             <testcase
                 name="AddEmp_DataProvider"
-                time="30.435"
+                time="23.500"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="30.261"
+                time="23.372"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="27.479"
+                time="23.497"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="26.797"
+                time="25.018"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="26.507"
+                time="23.289"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="25.774"
+                time="22.300"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="36.644"
+                time="23.899"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="31.059"
+                time="22.527"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
             <testcase
                 name="AddEmp_DataProvider"
-                time="30.357"
+                time="24.110"
                 classname="com.qa.orangeHRM.testcases.AddEmpTest">
             </testcase>
 </testsuite>
